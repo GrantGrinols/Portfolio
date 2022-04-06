@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/LibraryBackground.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -521,7 +521,10 @@ h3{
     text-decoration: none;
     color: #777;
 }
-
+.QuoteoftheDay{
+    background-color: #f44336;
+    border: 2px solid #222;
+}
 
 
 
