@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grant Grinols - Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="documents.html">DOCUMENTS</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Projects and Current Plans</h1>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/CodingBackground.png">
+        <h2>Let's talk about projects</h2>
+        
+        <p>Projects come in many shapes and sizes. Some projects were made in java, some projects were made in Javascript. There are some projects that are made from other software such as SQL and is just using github has a online storage platform </p>
+        <br>
+        <p>The origins of these projects are as wild as come get. Some project ideas came to be because of college. Some projects were just for the fun of it. Regardless of the origin, I've put my heart and soul every single one. </p>
+        <br>
+        <p>It is worth mentioning that some of these projects can be snippets of a bigger picture. Some projects involve in StarUML documents and sprint sheets and so much more. It is recommended to read the readme txt to understand the full scope of the project</p>
+        <br>
+        <p>Please note that the following are only the  top 3 favorite projects. Please <a href="https://github.com/GrantGrinols">Click Here</a> to get the full list of my coding experience </p>
+        
+        <div class="row">
+            <div class="facility-col">
+                <img src="images/StockPic.png">
+                <h3>Real-Time StockGrabber - Observer Pattern</h3>
+                <p>This software grabs the 5 different stock prices and it uses the observer pattern</p>
+                <button class="hero-btn red-btn", onclick="window.location.href='https://github.com/GrantGrinols/ObserverPattern';"> Click here to see the code</a></button> 
+            </div>
+            <div class="facility-col">
+                <img src="images/Tetris.png">
+                <h3>Tetris</h3>
+                <p>A collaboration I did for my sophmore project. Uses JavaScript, CSS, and html</p>
+                <button class="hero-btn red-btn", onclick="window.location.href='https://github.com/Sophomore-Project/DefinitelyNotTetris';"> Click here to see the code</a></button>
+                <a href="https://sophomore-project.github.io/DefinitelyNotTetris/">Click here to play the game on your browser</a>
+            </div>
+            <div class="facility-col">
+                <img src="images/Painting.png">
+                <h3>A Painting Tool</h3>
+                <p>A a collaboration that was made with the Scrum Process Model and UML diagrams</p>
+                <button class="hero-btn red-btn", onclick="window.location.href='https://github.com/GrantGrinols/DrawingTool';"> Click here to see the code</a></button>
+            </div>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>Project Categories</h3>
+            <div>
+                <span>Individual:</span>
+                <span>4</span>
+            </div>
+            <div>
+                <span>Collaborations:</span>
+                <span>3</span>
+            </div>
+           <div>
+               <span><img src="images/CodeTree.png"></span>
+           </div>
+           <h3>What I'm doing now:</h3>
+           <p>It's fall season and with it comes a brand new school year! I've just finished my internship and NTT and now I have the experience to pursue more fruitful careers. One more year of schooling and I can make wonderful things happening.</p>
+        </div> 
+   
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Just your friendly neighborhood web designer and developer<br>With enough determination, anything is possible</p>
+
+    <p>made with <i class="fa fa-heart-o"></i> by Grant Grinols</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

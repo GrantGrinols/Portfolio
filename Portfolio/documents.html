@@ -1,0 +1,104 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grant Grinols - Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="documents.html">DOCUMENTS</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Documents</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Important Documents</h1>
+        <p>Resume and Other Essentials</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Resume</h3>
+                <img src="images/ResumePic.png">
+                <p>The Resume of Grant Grinols</p>
+                <button class="hero-btn red-btn", onclick="window.location.href='https://1drv.ms/w/s!AjtVhXn_J5iqgUGg6vw-HFm93K_a?e=qS8aZ9';"> Click to view resume</a></button>
+            </div>
+            <div class="course-col">
+                <h3>More Skills</h3>
+                <img src="images/List.png">
+                <p>A list of skills and descriptions that did not made it to resume</p>
+                <button class="hero-btn red-btn", onclick="window.location.href='https://1drv.ms/w/s!AjtVhXn_J5iqgRKFSBxDiBitwPbB?e=7xnGnE';"> Click to view other experiences</a></button>
+            </div>
+            <div class="course-col">
+                <h3>Transcript</h3>
+                <img src="images/TranscriptOakland.png">
+                <p>Transcript as of Winter 2022</p>
+                <button class="hero-btn red-btn", onclick="window.location.href='https://1drv.ms/w/s!AjtVhXn_J5iqgSx0UYyknS6EDOwU?e=XJ4uTK';"> Click to view other experiences</a></button>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Other Documents</h1>
+        <p>About my personality and other hobbies</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/References.jpg">
+                    <h3>Available upon Request</h3>
+                    <p>From previous and current employers and professors</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/Poem.png">
+                    
+                </div>
+                <div class="facility-col">
+                    <img src="images/FAQ.png">
+                    <h3>Frequently Asked Questions</h3>
+                    <button class="hero-btn red-btn", onclick="window.location.href='https://1drv.ms/w/s!AjtVhXn_J5iqgSZGSHqHuTpRuJXn?e=zCs3Gi';"> Click here to view</a></button>
+                </div>
+                
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Me</h4>
+        <p>Just your friendly neighborhood web designer and developer<br>With enough determination, anything is possible</p>
+  
+        <p>made with <i class="fa fa-heart-o"></i> by Grant Grinols</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    

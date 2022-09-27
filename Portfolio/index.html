@@ -1,0 +1,152 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grant Grinols - Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="documents.html">DOCUMENTS</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Welcome to my Portfolio</h1>
+            <p>Home to the many documents, projects, and many other wonders<br>that you will need to know that I'm the best man for the job</p>
+            <a href="contact.html" class="hero-btn">Click for contact info</a>
+        </div>
+    </section>
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Documents:</h1>
+        <p>Quick Access</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Resume</h3>
+                <button class="hero-btn red-btn", onclick="window.location.href='https://1drv.ms/w/s!AjtVhXn_J5iqgUGg6vw-HFm93K_a?e=qS8aZ9';"> Click for resume</a></button>
+            </div>
+            <div class="course-col">
+                <h3>Transcript</h3>
+                <button class="hero-btn red-btn", onclick="window.location.href='https://1drv.ms/w/s!AjtVhXn_J5iqgSx0UYyknS6EDOwU?e=RttY8D';"> Click for Transcript</a></button>
+            </div>
+            <div class="course-col">
+                <h3>Skills List</h3>
+                <button class="hero-btn red-btn", onclick="window.location.href='https://1drv.ms/w/s!AjtVhXn_J5iqgRKFSBxDiBitwPbB?e=7xnGnE';"> Click to view resume</a></button>
+            </div>
+        </div>
+    </section>
+    
+<!---------- campus ---------->
+    
+    <section class="campus">
+        <h1>Core Focus</h1>
+        <p>These are the languages I deal with the most</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/JavaPic.png">
+                    <div class="layer">
+                        <h3>Java</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/JavaScript.png">
+                    <div class="layer">
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/SQL.png">
+                    <div class="layer">
+                        <h3>Microsoft<br>SQL</h3>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Big Talking Points</h1>
+        <p>My beliefs for off the screen</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/BigBrain.png">
+                    <h3>Crtical Thinking</h3>
+                    <p>Whatever the problem may be, I will find a solution to it</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/Burning.png">
+                    <h3>What Must Fall Will Rise Again</h3>
+                    <p>People are expected to fail. But these failures will turn into life lessons</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/Love.png">
+                    <h3>Love it</h3>
+                    <p>In order to excel in your career, you have to love it so you'll never have to work a day in your life</p>
+                </div>
+            </div>
+    </section>
+    
+    
+
+    
+   
+    
+<!------ Call To Action ------>
+
+<section class="cta">
+    
+       <h1>Excellence is just one step ahead</h1>
+        <a href="contact.html" class="hero-btn">CONTACT NOW</a>
+    
+</section>    
+ 
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Just your friendly neighborhood web designer and developer<br>With enough determination, anything is possible</p>
+
+    <p>made with <i class="fa fa-heart-o"></i> by Grant Grinols</p> 
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
+
+
+
+
+
+
+
